@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musei Vaticani</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Agregar la fuente Cinzel desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+  <style>
+    /* Aplicar la fuente Questrial a los párrafos */
+    p {
+      font-family: 'Questrial', sans-serif;
+      text-align: justify;
+      line-height: 1.5;
+    }
+
+    /* Reducir ancho de las cajas de párrafos */
+    .content p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+
+    /* Contenedor para la imagen y el texto */
+    .content-image-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      justify-content: center; /* Centra la imagen */
+    }
+
+    /* Estilo para la imagen */
+    .image-container {
+      display: flex;
+      justify-content: center; /* Centra la imagen dentro de su contenedor */
+      flex: 1;
+    }
+
+    /* Ajustar los bloques de cita */
+    blockquote {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1em;
+      line-height: 1.6;
+    }
+
+    /* Bloques de cita ajustados */
+    blockquote {
+      max-width: 1000px;
+      margin-left: 0;
+      font-size: 1em;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Musei Vaticani</div>
+    <nav class="menu">
+      <div>
+         <button id="explore-btn">Explora ≡</button>
+    <ul id="explore-menu" class="hidden">
+       <li><a href="colecciones.html">Colecciones</a></li>
+      <li><a href="museodelpapa.html">Misión</a></li>
+      <li><a href="practicas.html">Prácticas</a></li>
+    </ul>
+      </div>
+      <ul>
+        <li><a href="#">Información</a></li>
+        <li><a href="#">Entradas</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li><a href="#">Síguenos</a></li>
+        <li><a href="#">Colabora con Nosotros</a></li>
+      </ul>
+    </nav>
+    <div class="top-bar">
+      <label for="language-selector">&nbsp;</label>
+      <select id="language-selector" class="language-selector" aria-labelledby="language-selector">
+        <option>Idioma ≡</option>
+        <option>Español</option>
+        <option>Inglés</option>
+        <option>Italiano</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+    <div class="content-image-container">
+      <div class="image-container">
+        <!-- Imagen centrada -->
+        <img src="../imagenes/museopioclementino.png" alt="Imagen sobre los Museos Vaticanos" width="120" height="400">
+      </div>
+
+      <div class="container">
+        <div class="content">
+          <h2>Museo Pío Clementino</h2>
+          <div>
+            <blockquote>
+              <p>El núcleo original de las colecciones papales de escultura clásica tiene inicio en el "Patio de las Estatuas" (hoy conocido como “Patio Octógono”) del papa Julio II (1503-1513). En la segunda mitad del siglo XVIII, las colecciones papales se agrandaron, tanto por las excavaciones en el territorio romano y del Lacio, como por las adquisiciones realizadas por coleccionistas o anticuarios.
+Bajo la influencia del pensamiento de la Ilustración fueron acogidas en un museo público en el sentido moderno, con el objetivo de proteger las obras de arte antiguas y de promover su estudio y conocimiento. El museo llamado Pío Clementino, por el nombre de sus fundadores Clemente XIV Ganganelli (1769-1774) y Pío VI Braschi (1775-1799), consistía en salas de exposiciones, creadas mediante la adaptación de los edificios ya existentes y la construcción de otros nuevos, tanto en el interior como en las proximidades del renacentista Palacete del Belvedere de Inocencio VIII. Aquí se colocaron esculturas antiguas, a menudo completadas en gran parte por los restauradores de la época.
+Las arquitecturas neoclásicas se construyeron bajo la dirección de Alexander Dori, Michelangelo Simonetti y Giuseppe Camporese, y se enriquecieron con el trabajo de un gran grupo de pintores y decoradores.
+Con el Tratado de Tolentino (1797), el Estado de la Iglesia se vio obligado a ceder a la Francia de Napoleón las principales grandes obras maestras del museo, que fueron trasladadas a París. Más tarde, después del Congreso de Viena (1815) y gracias a la diplomática labor de Antonio Canova, la mayoría de las obras fueron recuperadas.</p>
+            </blockquote>
+          </div>
+            
+             <!-- Menú lateral -->
+    <aside class="menu-lateral">
+      <button aria-label="Buscar">🔍</button>
+      <button aria-label="Imprimir">🖨️</button>
+      <button aria-label="Copiar enlace">🔗</button>
+    </aside>
+
+    <!-- Botones de acción -->
+    <div class="acciones">
+        <button><a href="../index.html">Inicio</a></button>
+     <button><a href="colecciones.html">Colecciones</a></button>
+     <button><a href="museodelpapa.html">Misión</a></button>
+     <button><a href="practicas.html">Prácticas</a></button>
+    </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <ul>
+      <li><a href="derechos.html">Derechos de Autor</a></li>
+      <li><a href="privacidad.html">Política de Privacidad</a></li>
+      <li><a href="creditos.html">Créditos</a></li>
+    </ul>
+      
+       <div class="social-icons">
+    <a href="https://www.youtube.com/c/MuseiVaticaniMv" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+  <a href="https://www.instagram.com/vaticanmuseums/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.whatsapp.com/channel/0029Va2jhZDA89MaorkAbq2T" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+</div>
+      
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musei Vaticani</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Agregar la fuente Cinzel desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+  <style>
+    /* Aplicar la fuente Questrial a los párrafos */
+    p {
+      font-family: 'Questrial', sans-serif;
+      text-align: justify;
+      line-height: 1.5;
+    }
+
+    /* Reducir espacio superior e inferior en párrafos */
+p {
+  font-family: 'Questrial', sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 5px; /* Reduce el margen superior */
+  margin-bottom: 5px; /* Reduce el margen inferior */
+}
+
+/* Ajustar los bloques de cita */
+blockquote {
+  max-width: 1000px;
+  margin-left: 0;
+  margin-right: auto;
+  font-size: 1em;
+  line-height: 1.2; /* Ajustar el espaciado entre líneas */
+  margin-top: 0px; /* Reducir margen superior */
+  margin-bottom: 0px; /* Reducir margen inferior */
+}
+
+/* Reducir espacio dentro del contenedor general */
+.content {
+  padding-top: 0px; /* Reducir espacio superior */
+  padding-bottom: 0px; /* Reducir espacio inferior */
+}
+
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Musei Vaticani</div>
+    <nav class="menu">
+      <div>
+         <button id="explore-btn">Explora ≡</button>
+    <ul id="explore-menu" class="hidden">
+        <li><a href="colecciones.html">Colecciones</a></li>
+      <li><a href="museodelpapa.html">Misión</a></li>
+      <li><a href="practicas.html">Prácticas</a></li>
+    </ul>
+      </div>
+      <ul>
+        <li><a href="#">Información</a></li>
+        <li><a href="#">Entradas</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li><a href="#">Síguenos</a></li>
+        <li><a href="#">Colabora con Nosotros</a></li>
+      </ul>
+    </nav>
+    <div class="top-bar">
+      <label for="language-selector">&nbsp;</label>
+      <select id="language-selector" class="language-selector" aria-labelledby="language-selector">
+        <option>Idioma ≡</option>
+        <option>Español</option>
+        <option>Inglés</option>
+        <option>Italiano</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+   
+        
+      <div class="container">
+        <div class="container-fluid bg-warning">
+          <h2>Política de privacidad</h2>
+          <div>
+            <blockquote>
+              <p>El Governatorato del Estado de la Ciudad del Vaticano - Dirección de los Museos y de los Bienes Culturales garantiza que la gestión del tratamiento de datos personales se lleva a cabo según estándares elevados de seguridad, respetando plenamente los derechos y libertades fundamentales, así como de la dignidad de las personas físicas, con especial referencia a la confidencialidad y la identidad personal. Los datos conferidos serán utilizados exclusivamente para comunicaciones inherentes a las actividades de los Museos Vaticanos, con plena tutela de los derechos y la confidencialidad de los interesados. Queda excluida la cesión a terceros.&nbsp;</p>
+              
+            </blockquote>
+          </div>
+            
+             <!-- Menú lateral -->
+    <aside class="menu-lateral">
+      <button aria-label="Buscar">🔍</button>
+      <button aria-label="Imprimir">🖨️</button>
+      <button aria-label="Copiar enlace">🔗</button>
+    </aside>
+
+    <!-- Botones de acción -->
+    <div class="acciones">
+        <button><a href="../index.html">Inicio</a></button>
+     <button><a href="colecciones.html">Colecciones</a></button>
+     <button><a href="museodelpapa.html">Misión</a></button>
+     <button><a href="practicas.html">Prácticas</a></button>
+    </div>
+        </div>
+      </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <ul>
+      
+      <li><a href="derechos.html">Derechos de Autor</a></li>
+      <li><a href="privacidad.html">Política de Privacidad</a></li>
+      <li><a href="creditos.html">Créditos</a></li>
+    </ul>
+      
+       <div class="social-icons">
+    <a href="https://www.youtube.com/c/MuseiVaticaniMv" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+  <a href="https://www.instagram.com/vaticanmuseums/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.whatsapp.com/channel/0029Va2jhZDA89MaorkAbq2T" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+</div>
+      
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../js/script.js"></script>
+</body>
+</html>
+

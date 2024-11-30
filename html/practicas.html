@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musei Vaticani</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Agregar la fuente Cinzel desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+  <style>
+    /* Aplicar la fuente Questrial a los párrafos */
+    p {
+      font-family: 'Questrial', sans-serif;
+      text-align: justify;
+      line-height: 1.5;
+    }
+
+    /* Reducir ancho de las cajas de párrafos */
+    .content p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+
+    /* Contenedor para la imagen y el texto */
+    .content-image-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      justify-content: center; /* Centra la imagen */
+    }
+
+    /* Estilo para la imagen */
+    .image-container {
+      display: flex;
+      justify-content: center; /* Centra la imagen dentro de su contenedor */
+      flex: 1;
+    }
+
+    /* Ajustar los bloques de cita */
+    blockquote {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1em;
+      line-height: 1.6;
+    }
+
+    /* Bloques de cita ajustados */
+    blockquote {
+      max-width: 1000px;
+      margin-left: 0;
+      font-size: 1em;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Musei Vaticani</div>
+    <nav class="menu">
+      <div>
+         <button id="explore-btn">Explora ≡</button>
+    <ul id="explore-menu" class="hidden">
+        <li><a href="colecciones.html">Colecciones</a></li>
+      <li><a href="museodelpapa.html">Misión</a></li>
+      <li><a href="practicas.html">Prácticas</a></li>
+    </ul>
+      </div>
+      <ul>
+        <li><a href="#">Información</a></li>
+        <li><a href="#">Entradas</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li><a href="#">Síguenos</a></li>
+        <li><a href="#">Colabora con Nosotros</a></li>
+      </ul>
+    </nav>
+    <div class="top-bar">
+      <label for="language-selector">&nbsp;</label>
+      <select id="language-selector" class="language-selector" aria-labelledby="language-selector">
+        <option>Idioma ≡</option>
+        <option>Español</option>
+        <option>Inglés</option>
+        <option>Italiano</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+    <div class="content-image-container">
+      <div class="image-container">
+        <!-- Imagen centrada -->
+        <img src="../imagenes/practicas.jpeg" class="img-fluid" alt="Imagen sobre los Museos Vaticanos"  >
+      </div>
+
+      <div class="container-fluid bg-warning">
+        <div class="container-fluid bg-warning">
+          <h2>Prácticas en los Museos Vaticanos</h2>
+          <div>
+            <blockquote>
+              <p><strong>Destinatarios&nbsp;</strong></p>
+              <p>Los Museos Vaticanos ofrecen un programa de prácticas formativas dirigido a jóvenes especializados en técnicas de restauración y a estudiantes o a recién licenciados en materias artísticas y arqueológicas y en disciplinas humanísticas inherentes al ámbito museístico.&nbsp;</p>
+              <p><strong>Programa&nbsp;</strong></p>
+              <p>Cada persona en prácticas es asignada a un proyecto específico y se incorpora a un grupo de trabajo, de forma que participa en la actividad diaria del museo llevando a cabo funciones de soporte a varias oficinas: acogida de los visitantes; didáctica; comunicación; laboratorios de restauración; secciones del museo y muchas otras.
+                El programa de prácticas también prevé actividades formativas como seminarios, conferencias y visitas guiadas, expresamente programadas a fin de que quien participa en el programa pueda conocer mejor la realidad museística con sus múltiples actividades y tenga la posibilidad de poner en práctica, confrontar y profundizar sus respectivas competencias académicas y profesionales.
+                Al término del período, en una jornada conclusiva, será preciso exponer en público una breve relación sobre el trabajo realizado.&nbsp;</p>
+              <p><strong>&nbsp;Duración&nbsp;</strong></p>
+              <p>Las prácticas son semestrales e inician en octubre o en abril.
+                
+                Términos de presentación de la solicitud
+                Las candidaturas se deberán enviar a la dirección de correo electrónico infostages.musei@scv.va y deben llegar al menos 4 meses antes del inicio del semestre sucesivo (antes de fin de mayo para el semestre que comienza en octubre, antes de fin de noviembre para el semestre que comienza en abril).&nbsp;</p>
+              <p><strong>&nbsp;Requisitos&nbsp;</strong></p>
+              <p>para la candidatura
+              Las candidaturas, sometidas a la valoración de la Comisión de Prácticas, son aceptadas en virtud de la conformidad del perfil presentado con las actividades o los proyectos en marcha, la disponibilidad de puestos y la valoración de la documentación presentada (en formato PDF), que debe comprender necesariamente:&nbsp;</p>
+                
+                 <p>&nbsp;- Curriculum vitae et studiorum.&nbsp;</p>
+                 <p>&nbsp;- Documento de identidad válido.&nbsp;</p>
+                 <p>&nbsp;- Diplomas o certificaciones.&nbsp;</p>
+                 <p>&nbsp;- Carta de presentación.&nbsp;</p>
+              <p>&nbsp;-Para los candidatos extranjeros se requiere un conocimiento básico de la lengua italiana.&nbsp;</p>
+                <p><strong><em>Las prácticas no son retribuidas, y no constituyen título ni conllevan un derecho de preferencia para una relación laboral en el ámbito de la Dirección de los Museos y de los Bienes Culturales.&nbsp;</em></strong></p>
+            </blockquote>
+          </div>
+            
+             <!-- Menú lateral -->
+    <aside class="menu-lateral">
+      <button aria-label="Buscar">🔍</button>
+      <button aria-label="Imprimir">🖨️</button>
+      <button aria-label="Copiar enlace">🔗</button>
+    </aside>
+
+    <!-- Botones de acción -->
+    <div class="acciones">
+        <button><a href="../index.html">Inicio</a></button>
+     <button><a href="colecciones.html">Colecciones</a></button>
+     <button><a href="museodelpapa.html">Misión</a></button>
+     <button><a href="practicas.html">Prácticas</a></button>
+    </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <ul>
+      <li><a href="derechos.html">Derechos de Autor</a></li>
+      <li><a href="privacidad.html">Política de Privacidad</a></li>
+      <li><a href="creditos.html">Créditos</a></li>
+    </ul>
+      
+       <div class="social-icons">
+    <a href="https://www.youtube.com/c/MuseiVaticaniMv" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+  <a href="https://www.instagram.com/vaticanmuseums/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.whatsapp.com/channel/0029Va2jhZDA89MaorkAbq2T" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+</div>
+      
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../js/script.js"></script>
+</body>
+</html>
